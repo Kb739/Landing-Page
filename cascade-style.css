@@ -112,6 +112,7 @@ a {
     border:2px solid #3882f6;
     border-radius: 8px;
     color: #f9faf8;
+    flex-shrink: 0;
 }
 
 .services,
@@ -216,6 +217,8 @@ a {
 
 #footer {
     background-color: #1f2937;
-    height: 50px;
+    padding: 50px;
     color: white;
+    text-align: center;
+    font-size: larger;
 }
