@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
 }
 
 #header ul {
@@ -118,8 +119,52 @@ button {
     color: #f9faf8;
 }
 
-.container {
+.services,
+.sign-box {
     background-color: white;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px;
+    padding-bottom: 48px;
+}
+
+.services h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.services ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.services li {
+    padding: 0;
+    max-width: 200px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.img-box{
+    border :4px solid #3882f6;
+    border-radius: 18px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.img-box img{
+    max-width: 100%;
+    text-align: center;
+    line-height: 200px;
+    font-size: 18px;
+    font-size: medium;
 }
 
 #quote {
