@@ -65,7 +65,7 @@ a {
 }
 
 #intro .right,
-.left {
+#intro .left {
     width: 650px;
     height: 300px;
     box-sizing: border-box;
@@ -93,6 +93,7 @@ a {
     margin: 0;
     font-size: 20px;
     color: #e5e7eb;
+    margin-bottom: 8px;
 }
 
 #intro h1 {
@@ -103,26 +104,25 @@ a {
     padding: 0;
 }
 
-button {
-    width: 100px;
+.sign {
+    width: 140px;
     height: 40px;
-    margin-top: 8px;
-
     background-color: #3882f6;
-    border-color: #3882f6;
+    font-size: 18px;
+    border:2px solid #3882f6;
     border-radius: 8px;
     color: #f9faf8;
 }
 
 .services,
-.sign-box {
+.container,#quote {
     background-color: white;
-}
-
-.services {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+.services {
     padding: 18px;
     padding-bottom: 48px;
 }
@@ -168,9 +168,6 @@ button {
 
 #quote {
     background-color: #e5e7eb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #quote div {
@@ -178,7 +175,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin:120px;
+    margin: 120px;
 }
 
 #quote p {
@@ -187,15 +184,34 @@ button {
     font-style: italic;
     font-size: 36px;
     font-weight: light;
-    /* font-weight: lighter; */
     margin: 0;
 }
 
 #quote span {
     align-self: flex-end;
     font-size: 24px;
-    color:#1f2937;
+    color: #1f2937;
     font-weight: bold;
+}
+
+.sign-box{
+    background-color: #3882f6;
+    box-sizing: border-box;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:120px;
+    padding: 50px 200px;
+    color: #f9faf8;
+    border-radius:12px;
+}
+.sign-box .left p{
+    font-size: 20px;
+    margin-top: -20px;
+}
+.sign-box .sign{
+    border-color: #f9faf8;
 }
 
 #footer {
