@@ -8,7 +8,7 @@ body {
 }
 
 @font-face {
-    font-family: Roboto;
+    font-family: 'Roboto';
     src: url('./Fonts/Roboto');
 }
 
@@ -109,20 +109,22 @@ a {
     height: 40px;
     background-color: #3882f6;
     font-size: 18px;
-    border:2px solid #3882f6;
+    border: 2px solid #3882f6;
     border-radius: 8px;
     color: #f9faf8;
     flex-shrink: 0;
 }
 
 .services,
-.container,#quote {
+.container,
+#quote {
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .services {
     padding: 18px;
     padding-bottom: 100px;
@@ -195,23 +197,25 @@ a {
     font-weight: bold;
 }
 
-.sign-box{
+.sign-box {
     background-color: #3882f6;
     box-sizing: border-box;
     width: 65%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:120px;
+    margin: 120px;
     padding: 50px 200px;
     color: #f9faf8;
-    border-radius:12px;
+    border-radius: 12px;
 }
-.sign-box .left p{
+
+.sign-box .left p {
     font-size: 20px;
     margin-top: -20px;
 }
-.sign-box .sign{
+
+.sign-box .sign {
     border-color: #f9faf8;
 }
 
